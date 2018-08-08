@@ -1,0 +1,18 @@
+﻿<Properties StartupConfiguration="{074A8A6B-6A4E-488E-9956-5310B59626DB}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Vidly/Views/Customers/Details.cshtml">
+    <Files>
+      <File FileName="Vidly/Controllers/MoviesController.cs" Line="17" Column="1" />
+      <File FileName="Vidly/App_Start/RouteConfig.cs" Line="29" Column="32" />
+      <File FileName="Vidly/Controllers/CustomersController.cs" Line="31" Column="36" />
+      <File FileName="Vidly/Views/Customers/Index.cshtml" Line="23" Column="1" />
+      <File FileName="Vidly/Views/Customers/Details.cshtml" Line="10" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Vidly PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>
