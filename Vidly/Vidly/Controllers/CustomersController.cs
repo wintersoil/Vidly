@@ -14,11 +14,11 @@ namespace Vidly.Controllers
         {
             var customers = new List<Customer>
             {
-                new Customer { Name = "Samantha Juniper" , Id = 1},
+                /*new Customer { Name = "Samantha Juniper" , Id = 1},
                 new Customer { Name = "Casper Silanto", Id = 2 },
                 new Customer { Name = "Benedict Denito", Id = 3 },
                 new Customer { Name = "Eric Goswall", Id = 4 },
-                new Customer { Name = "Derrick Jonathan", Id = 5 }
+                new Customer { Name = "Derrick Jonathan", Id = 5 }*/
             };
             var viewModel = new RandomCustomersViewModel
             {
@@ -33,17 +33,21 @@ namespace Vidly.Controllers
 
             var customers = new List<Customer>
             {
-                new Customer { Name = "Samantha Juniper" , Id = 1},
+                /*new Customer { Name = "Samantha Juniper" , Id = 1},
                 new Customer { Name = "Casper Silanto", Id = 2 },
                 new Customer { Name = "Benedict Denito", Id = 3 },
                 new Customer { Name = "Eric Goswall", Id = 4 },
-                new Customer { Name = "Derrick Jonathan", Id = 5 }
+                new Customer { Name = "Derrick Jonathan", Id = 5 }*/
             };
             var viewModel = new RandomCustomersViewModel
             {
                 customers = customers
             };
             //return Content(viewModel.customers[id-1].Name);
+            if (id > customers.Count || id < 1)
+            {
+                return HttpNotFound();
+            }
             return View(viewModel.customers[id-1]);
         }
     }

@@ -1,8 +1,8 @@
 ﻿<Properties StartupConfiguration="{074A8A6B-6A4E-488E-9956-5310B59626DB}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Vidly/Views/Shared/_Footer.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Vidly/Controllers/CustomersController.cs">
     <Files>
-      <File FileName="Vidly/Views/Shared/_Layout.cshtml" Line="31" Column="29" />
-      <File FileName="Vidly/Views/Shared/_Footer.cshtml" Line="1" Column="4" />
+      <File FileName="Vidly/Controllers/CustomersController.cs" Line="40" Column="19" />
+      <File FileName="Vidly/Views/Customers/Index.cshtml" Line="23" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
